@@ -2,8 +2,8 @@ function getFirstSelector(selector) {
   return document.querySelector(selector);
 }
 
-function nestedTarget(uniqueID, classN) {
-  return document.querySelector(uniqueID).getElementById(classN);
+function nestedTarget() {
+  return document.querySelector('#nested .target');
 }
 
 function increaseRankBy(n) {
